@@ -65,7 +65,7 @@ AP_IMPLEMENT_HOOK_RUN_ALL(int,pre_connection,(conn_rec *c, void *csd),(c, csd),O
 #ifndef MAX_SECS_TO_LINGER
 #define MAX_SECS_TO_LINGER 30
 #endif
-
+//ngoiisk -test
 AP_CORE_DECLARE(void) ap_flush_conn(conn_rec *c)
 {
     apr_bucket_brigade *bb;
